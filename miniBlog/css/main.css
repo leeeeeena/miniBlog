@@ -1,0 +1,313 @@
+.main-wrapper{
+    background: #444 url(../img/banner.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+h2{
+    font-size: 24px;
+}
+
+h3{
+    font-size: 20px;
+}
+
+
+p{
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+header{
+    background: rgba(0, 0, 0, 0.3);
+}
+
+nav{
+  /*background-color: gray;*/
+  background: transparent;
+  height:50px;
+  /*top: 0px*/
+}
+
+nav ul
+{
+  list-style: none;
+  /*magrin:0;*/
+  margin-top: inherit;
+  float:right;
+}
+
+nav ul li, nav .logo{
+    display: inline-block;
+    line-height: 50px;
+    margin-right: 20px;
+
+}
+
+/*
+nav ul li
+{
+  display: inline-block;
+  height:inherit;
+  float:right;
+  margin-right: 20px;
+}
+*/
+nav ul li a
+{
+  line-height:inherit;
+  text-decoration:none;
+  display: inline-block;
+  height: inherit;
+  color: #fff;
+}
+
+nav .logo{
+    float: left;
+    padding-left: 10px;
+}
+
+.fa-home:before {
+    content: "\f015";
+    color: aliceblue;
+}
+
+nav .logo a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 28px;
+}
+/*
+nav ul li.logo
+{
+  float:left
+}
+*/
+#banner{
+  /*background-color: yellow;*/
+  background: transparent;
+  height:700px;
+}
+
+#banner .inner
+{
+  max-width: 300px;
+  text-align:center;
+  margin: 0 auto;
+  position: relative;
+  top:200px;
+  color: #ffffff;
+}
+
+#banner .inner h1
+{
+  margin:0;
+}
+
+#banner .inner p{
+    margin-bottom: 30px;
+}
+
+button
+{
+  border:none;
+  background: rgba(124, 132, 121, 0.9);
+  color:#eee;
+  padding:10px 20px;
+  border-radius: 5px;
+}
+
+#banner button
+{
+  padding: 10px 16px
+}
+
+#banner .inner .more
+{
+  margin-top: 140px
+}
+
+.sub-heading
+{
+  line-height: 20px;
+}
+
+
+.green-section{
+  background: #8990b5;
+  text-align: center;
+  color:#fff
+}
+
+
+.wrapper{
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 100px 0;
+}
+
+.green-section .hr{
+    width: 60%;
+    background: #4152b1;
+    margin: 20px auto;
+    height:2px
+
+}
+
+.green-section .icon-group{
+    margin-top: 100px;
+}
+
+.green-section .icon-group .icon{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background: #98a0cf;
+    transform: rotate(45deg);
+    margin: 20px;
+    padding: 10px;
+}
+
+
+
+
+.gray-section{
+    background: #24241d;
+    color: #fff;
+}
+
+
+.gray-section .img-section{
+    width: 45%;
+}
+
+.img-section img{
+    width: 100%;
+}
+
+.article-preview > div{
+    float: left;
+    font-size: 0;
+}
+
+.article-preview:nth-child(odd){
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
+.article-preview::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.gray-section .text-section{
+    width: 55%;
+    /*float: right; 使用右浮动会超出
+    屏幕范围？ */
+}
+
+.text-section{
+    position: relative;
+    top: 30px;
+    left: 25px;
+
+}
+
+.text-section h2{
+    margin-bottom: 25px;
+}
+
+.text-section p{
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+.text-section .sub-heading{
+    font-size: 22px;
+    margin-top: 0;
+}
+
+.text-section > *{
+    max-width: 90%;
+}
+
+.clearfix::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.purple-section{
+    padding: 50px;
+    background: rgb(87, 87, 133);
+    color: #fff;
+
+}
+.purple-section .heading-wrapper{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.purple-section .hr{
+    background:  rgb(48, 97, 189);
+    width: 60%;
+    height:2px;
+    margin:20px auto;
+}
+
+
+.card{
+  width: 50%;
+  float:left;
+  min-height: 300px;
+  padding: 50px;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+    /* border: 1px solid white; */
+
+}
+
+
+
+
+.card:first-child{
+    background: rgba(0, 0, 0, 0.05);
+}
+
+.card:nth-child(2){
+    background: rgba(0, 0, 0, 0.1);
+}
+
+.card:nth-child(3){
+    background: rgba(0, 0, 0, 0.15);
+}
+
+.card:nth-child(4){
+    background: rgba(0, 0, 0, 0.2);
+}
+
+
+footer{
+    background: #24241d;
+    color: white;
+    min-height: 210px;
+    text-align: center;
+}
+
+ul.share-group{
+    display: block;
+    width: 1080px;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+.share-group li{
+    display: inline-block;
+    padding: 20px;
+}
+
+.copy{
+    margin-bottom: 20px;
+}
